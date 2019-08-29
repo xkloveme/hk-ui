@@ -1,5 +1,5 @@
 <div align="center">
-<h1>hk-ui</h1>
+<h1>hekr-ui</h1>
 </div>
 
 <div align="center">
@@ -61,42 +61,3 @@ GitLab：[http://gitlab.hekr.me/front-end/hk-ui](http://gitlab.hekr.me/front-end
 
 0.1.1
 基础版本
-
-0.1.2
-
-0.1.3
-
-0.1.4
-
-0.1.5
-
-1. 修复 hk-form 重置表单后可能会出现无法输入表单的 bug
-
-0.1.6
-
-1. 修复 hk-table 数据无法及时更新的情况
-
-0.1.7
-
-1. 优化 hk-city-picker
-
-0.1.8
-
-1. hk-city-picker 省市区获取修改为接口获取，优化性能问题
-
-0.1.9
-
-1. 修复 hk-city-picker 最高选择街道，无街道的区无法选择的bug
-
-0.1.10
-
-1. 修改 hk-city-picker 请求接口
-
-0.1.11
-
-1. 修复lodash高危漏洞
-2. 优化hk-map地图搜索样式
-
-0.1.12
-
-1. 修复hk-table showOverflowTooltip 为false时不生效的bug
