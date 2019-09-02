@@ -1,3 +1,11 @@
+<!--
+ * @describe: 搜索组件
+ * @Author: superDragon
+ * @Date: 2019-06-26 15:38:53
+ * @LastEditors: superDragon
+ * @LastEditTime: 2019-06-26 15:38:53
+ -->
+<script>
 export default {
   name: 'hk-search',
   props: {
@@ -63,3 +71,4 @@ export default {
     }
   }
 }
+</script>
