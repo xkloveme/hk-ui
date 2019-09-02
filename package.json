@@ -1,17 +1,9 @@
 {
   "name": "hekr-ui",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A Component Library Base Element-ui for Vue.js.",
-  "keywords": [
-    "element-ui",
-    "vue",
-    "components"
-  ],
-  "files": [
-    "lib/hk-ui.umd.min.js",
-    "lib/hk-ui.css",
-    "packages"
-  ],
+  "keywords": ["element-ui", "vue", "components"],
+  "files": ["lib/hk-ui.umd.min.js", "lib/hk-ui.css", "packages"],
   "main": "lib/hk-ui.umd.min.js",
   "private": false,
   "scripts": {
@@ -44,11 +36,7 @@
     "@vue/cli-service": "^3.9.3",
     "@vue/eslint-config-standard": "^4.0.0",
     "babel-eslint": "^10.0.2",
-    "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "babel-plugin-dynamic-import-node": "^2.3.0",
-    "babel-plugin-syntax-jsx": "^6.18.0",
-    "babel-plugin-transform-vue-jsx": "^3.7.0",
-    "babel-preset-env": "^1.7.0",
     "cross-env": "^5.2.0",
     "element-theme-chalk": "^2.10.1",
     "eslint": "^6.0.1",

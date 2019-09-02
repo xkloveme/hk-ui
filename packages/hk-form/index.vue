@@ -1,3 +1,11 @@
+<!--
+ * @describe: form组件
+ * @Author: superDragon
+ * @Date: 2019-07-13 08:37:28
+ * @LastEditors: superDragon
+ * @LastEditTime: 2019-09-02 11:40:58
+ -->
+<script>
 export default {
   name: 'hk-form',
   props: {
@@ -6,7 +14,7 @@ export default {
     },
     items: {
       type: Array,
-      default: []
+      default: () => []
     },
     size: {
       type: String,
@@ -107,9 +115,7 @@ export default {
               },
               ...item.nativeOn
             }
-          },
-          this.renderChildren(h, item)
-          )
+          }, this.renderChildren(h, item))
         if (!this.inline) {
           return (
             <el-col span={item.col}>
@@ -172,3 +178,4 @@ export default {
     )
   }
 }
+</script>
