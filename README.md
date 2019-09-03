@@ -1,7 +1,16 @@
+<!--
+ * @describe: 描述文件
+ * @Author: superDragon
+ * @Date: 2019-09-02 09:48:18
+ * @LastEditors: superDragon
+ * @LastEditTime: 2019-09-03 09:58:36
+ -->
 <div align="center">
-<h1>hekr-ui</h1>
+<h1>HEKR-UI</h1>
 </div>
-
+<div align="center">
+<a href="https://hy.hekr.me/hk-ui/web/component/hk-button.html" target="_blank" rel="noopener noreferrer"><img width="200" src="./public/logo.png" alt="hekr logo"></a>
+</div>
 <div align="center">
   <a><img src="https://img.shields.io/circleci/project/github/vuejs/vue/dev.svg" alt="Build Status"></a>
   <a><img src="https://img.shields.io/badge/language-vue-42b983.svg" alt="Language"></a>
@@ -56,8 +65,4 @@ template
 ## 源码地址
 
 GitLab：[http://gitlab.hekr.me/front-end/hk-ui](http://gitlab.hekr.me/front-end/hk-ui)
-
-## 版本说明
-
-0.1.1
-基础版本
+GitHub：[https://github.com/xkloveme/hk-ui](https://github.com/xkloveme/hk-ui)

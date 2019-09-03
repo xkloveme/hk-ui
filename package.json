@@ -1,9 +1,17 @@
 {
   "name": "hekr-ui",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A Component Library Base Element-ui for Vue.js.",
-  "keywords": ["element-ui", "vue", "components"],
-  "files": ["lib/hk-ui.umd.min.js", "lib/hk-ui.css", "packages"],
+  "keywords": [
+    "element-ui",
+    "vue",
+    "components"
+  ],
+  "files": [
+    "lib/hk-ui.umd.min.js",
+    "lib/hk-ui.css",
+    "packages"
+  ],
   "main": "lib/hk-ui.umd.min.js",
   "private": false,
   "scripts": {
