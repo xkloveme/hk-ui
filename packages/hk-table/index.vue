@@ -3,7 +3,7 @@ import uniq from 'lodash/uniq'
 import compact from 'lodash/compact'
 
 export default {
-  name: 'hk-table',
+  name: 'cf-table',
   props: {
     api: { // api请求
       type: Function
@@ -138,14 +138,14 @@ export default {
     },
     handlePageChange (page) {
       this.uid++
-      this.page = page
+      this.page = page - 1
       this.clearSelection()
       this.getData()
     },
     handlePageSizeChange (pageSize) {
       this.uid++
       if (this.page !== 0) this.clearSelection()
-      this.page = 1
+      this.page = 0
       this.pageSize = pageSize
       this.getData()
     },
@@ -168,7 +168,7 @@ export default {
           background={true}
           total={this.total}
           page-size={this.pageSize}
-          current-page={this.page}
+          current-page={this.page + 1}
           page-sizes={this.pageSizes}
           layout="sizes, prev, pager, next"
           on-current-change={this.handlePageChange}
